@@ -1,0 +1,233 @@
+{
+  "products": [
+    {
+      "id": 100,
+      "brand": "Toyota",
+      "model": "Yaris",
+      "features": {
+        "fuel": "benzine",
+        "engine": 1400,
+        "gearbox": "automatic",
+        "doors": 2,
+        "seats": 4,
+        "climate": true
+      },
+      "location": "Bucharest",
+      "price": {
+        "1day": 30,
+        "3days": 79.09,
+        "5days": 115
+      },
+      "photo": "./public/assets/toyota_yaris_1.png"
+    },
+    {
+      "id": 101,
+      "brand": "Toyota",
+      "model": "Yaris",
+      "features": {
+        "fuel": "benzine",
+        "engine": 1400,
+        "gearbox": "automatic",
+        "doors": 2,
+        "seats": 4,
+        "climate": true
+      },
+      "location": "Cluj-Napoca",
+      "price": {
+        "1day": 30,
+        "3days": 79.09,
+        "5days": 115
+      }
+    },
+    {
+      "id": 102,
+      "brand": "Toyota",
+      "model": "Yaris",
+      "features": {
+        "fuel": "benzine",
+        "engine": 1400,
+        "gearbox": "automatic",
+        "doors": 2,
+        "seats": 4,
+        "climate": true
+      },
+      "location": "Iasi",
+      "price": {
+        "1day": 30,
+        "3days": 79.09,
+        "5days": 115
+      }
+    },
+    {
+      "id": 103,
+      "brand": "Ford",
+      "model": "Focus",
+      "features": {
+        "fuel": "benzine",
+        "engine": 1600,
+        "gearbox": "manual",
+        "doors": 4,
+        "seats": 5,
+        "climate": true
+      },
+      "location": "Iasi",
+      "price": {
+        "1day": 30,
+        "3days": 79.99,
+        "5days": 120
+      }
+    },
+    {
+      "id": 104,
+      "brand": "Ford",
+      "model": "Focus",
+      "features": {
+        "fuel": "benzine",
+        "engine": 1600,
+        "gearbox": "manual",
+        "doors": 4,
+        "seats": 5,
+        "climate": true
+      },
+      "location": "Bucharest",
+      "price": {
+        "1day": 30,
+        "3days": 79.99,
+        "5days": 120
+      }
+    },
+    {
+      "id": 105,
+      "brand": "Ford",
+      "model": "Focus",
+      "features": {
+        "fuel": "benzine",
+        "engine": 1600,
+        "gearbox": "manual",
+        "doors": 4,
+        "seats": 5,
+        "climate": true
+      },
+      "location": "Cluj-Napoca",
+      "price": {
+        "1day": 30,
+        "3days": 79.99,
+        "5days": 120
+      }
+    },
+    {
+      "id": 106,
+      "brand": "Volkswagen",
+      "model": "UP",
+      "features": {
+        "fuel": "benzine",
+        "engine": 1600,
+        "gearbox": "manual",
+        "doors": 4,
+        "seats": 5,
+        "climate": true
+      },
+      "location": "Cluj-Napoca",
+      "price": {
+        "1day": 26,
+        "3days": 69.09,
+        "5days": 109
+      }
+    },
+    {
+      "id": 107,
+      "brand": "Skoda",
+      "model": "Fabia",
+      "features": {
+        "fuel": "benzine",
+        "engine": 1400,
+        "gearbox": "manual",
+        "doors": 4,
+        "seats": 5,
+        "climate": true
+      },
+      "location": "Bucharest",
+      "price": {
+        "1day": 30,
+        "3days": 79.99,
+        "5days": 115
+      }
+    },
+    {
+      "id": 108,
+      "brand": "Skoda",
+      "model": "Fabia",
+      "features": {
+        "fuel": "benzine",
+        "engine": 1400,
+        "gearbox": "manual",
+        "doors": 4,
+        "seats": 5,
+        "climate": true
+      },
+      "location": "Iasi",
+      "price": {
+        "1day": 30,
+        "3days": 79.99,
+        "5days": 115
+      }
+    },
+    {
+      "id": 109,
+      "brand": "Skoda",
+      "model": "Fabia",
+      "features": {
+        "fuel": "benzine",
+        "engine": 1400,
+        "gearbox": "manual",
+        "doors": 4,
+        "seats": 5,
+        "climate": true
+      },
+      "location": "Cluj-Napoca",
+      "price": {
+        "1day": 30,
+        "3days": 79.99,
+        "5days": 115
+      }
+    },
+    {
+      "id": 110,
+      "brand": "Volkswagen",
+      "model": "Golf",
+      "features": {
+        "fuel": "benzine",
+        "engine": 1400,
+        "gearbox": "manual",
+        "doors": 4,
+        "seats": 5,
+        "climate": true
+      },
+      "location": "Iasi",
+      "price": {
+        "1day": 39,
+        "3days": 89.99,
+        "5days": 129
+      }
+    },
+    {
+      "id": 111,
+      "brand": "Volkswagen",
+      "model": "Golf",
+      "features": {
+        "fuel": "benzine",
+        "engine": 1400,
+        "gearbox": "manual",
+        "doors": 4,
+        "seats": 5,
+        "climate": true
+      },
+      "location": "Bucharest",
+      "price": {
+        "1day": 39,
+        "3days": 89.99,
+        "5days": 129
+      }
+    }
+  ]
+}

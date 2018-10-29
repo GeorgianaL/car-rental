@@ -1,7 +1,3 @@
-// ActionTypes are defined in constants.
-
-// They are imported in Actions and Reducers.
-
-export const INCREMENT_NUM = "INCREMENT_NUM";
-export const DECREMENT_NUM = "DECREMENT_NUM";
-export const RESET = "RESET";
+export const FETCH_PRODUCTS_BEGIN   = "FETCH_PRODUCTS_BEGIN";
+export const FETCH_PRODUCTS_SUCCESS = "FETCH_PRODUCTS_SUCCESS";
+export const FETCH_PRODUCTS_FAILURE = "FETCH_PRODUCTS_FAILURE";

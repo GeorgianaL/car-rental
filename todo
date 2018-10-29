@@ -1,0 +1,13 @@
+start: npm run start:dev
+start db: json-server --watch db.json
+-------------------------------------
+1st screen:
+-> all products list
+-> add pickup date, drop off date and location => products list is filtered
+
+2nd screen:
+-> product is beeing selected and main area contains product details
+
+3rd screen:
+-> clicking rent from previous screen, replaces the products list with a final form
+ 

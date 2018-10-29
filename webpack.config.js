@@ -15,12 +15,7 @@ module.exports = {
         loader: ExtractTextPlugin.extract(["css-loader", "sass-loader"])
       },
       {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        loaders: "eslint-loader",
-      },
-      {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         loaders: "babel-loader",
         options: {
@@ -29,6 +24,9 @@ module.exports = {
         }
       }
     ]
+  },
+  resolve: {
+    extensions: ['.js', '.jsx'],
   },
   devServer: {
     contentBase: "./public/",

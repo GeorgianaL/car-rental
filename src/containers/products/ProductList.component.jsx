@@ -1,6 +1,8 @@
 import React from "react";
 import { connect } from "react-redux";
-import { fetchProducts } from "../actions/productActions";
+import { fetchProducts } from "../../actions/productActions";
+
+import './style.scss';
 
 class ProductList extends React.Component {
   componentDidMount() {
@@ -9,9 +11,9 @@ class ProductList extends React.Component {
 
   render() {
     const { error, loading, products } = this.props;
-
+    console.log(this.props);
     if (error) {
-      return <div>Error! {error.message}</div>;
+      return <div>{error.message}</div>;
     }
 
     if (loading) {
@@ -19,11 +21,13 @@ class ProductList extends React.Component {
     }
 
     return (
+      <div className="products">
       <ul>
         {products.map(product =>
-          <li key={product.id}>{product.name}</li>
+          <li key={product.id}>{product.brand}</li>
         )}
       </ul>
+      </div>
     );
   }
 }

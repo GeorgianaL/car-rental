@@ -1,10 +1,15 @@
 import React, { Component } from "react";
-import PorductList from "./containers/ProductList";
+
+import SideBar from "./containers/sidebar";
+import Main from './containers/main';
 
 class App extends Component {
   render() {
     return (
-      <PorductList />
+      <div className="car-dealer">
+        <Main />
+        <SideBar />
+      </div>
     );
   }
 }

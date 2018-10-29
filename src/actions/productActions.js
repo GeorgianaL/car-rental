@@ -25,8 +25,8 @@ export function fetchProducts() {
       .then(handleErrors)
       .then(res => res.json())
       .then(json => {
-        dispatch(fetchProductsSuccess(json.products));
-        return json.products;
+        dispatch(fetchProductsSuccess(json));
+        return json;
       })
       .catch(error => dispatch(fetchProductsFailure(error)));
   };

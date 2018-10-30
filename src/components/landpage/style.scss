@@ -1,0 +1,37 @@
+@import '../../skins/index.scss';
+
+.landpage {
+  @include flex(column);
+}
+
+.title {
+  @include flex(column);
+  padding: 80px 30px;
+
+  @include element('first') {
+    font-size: 2.3em;
+  }
+  @include element('second') {
+    font-size: 2.5em;
+  }
+}
+
+.steps {
+  @include flex(column);
+  padding: 30px;
+}
+
+.step {
+  @include flex(row);
+  align-items: center;
+
+  @include element('index') {
+    font-size: 4.5em;
+    color: setColor('burgundy');
+  }
+
+  @include element('description') {
+    @include flex(column);
+    font-size: 1.7em;
+  }
+}

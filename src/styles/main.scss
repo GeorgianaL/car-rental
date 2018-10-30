@@ -8,6 +8,8 @@ body {
 }
 ol, ul {
 	list-style: none;
+  padding: 0;
+  margin: 0;
 }
 p {
   margin: 0;
@@ -22,6 +24,7 @@ p {
   .sidebar {
     background-color: setColor('black');
     color: setColor('white');
+    min-width: 300px;
     flex: 1 1 auto;
   }
 }

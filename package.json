@@ -3,11 +3,14 @@
   "version": "1.2.0",
   "watch": true,
   "dependencies": {
+    "@material-ui/core": "^3.3.2",
     "express": "^4.16.3",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "react-facebook-login": "^4.1.1",
     "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
     "redux": "^3.7.2",
     "redux-thunk": "^2.3.0"
   },

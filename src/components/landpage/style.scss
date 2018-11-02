@@ -4,6 +4,11 @@
   @include flex(column);
 }
 
+.searchInput {
+  color: setColor('burgundy');
+  max-width: 200px;
+}
+
 .title {
   @include flex(column);
   padding: 80px 30px;

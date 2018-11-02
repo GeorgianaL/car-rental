@@ -19,7 +19,7 @@ p {
   display: flex;
   flex-flow: row wrap;
   .main {
-    flex: 2 1 auto;
+    flex: 8 1 auto;
   }
   .sidebar {
     background-color: setColor('black');

@@ -1,0 +1,6 @@
+Client
+npm run start:dev
+----------------
+DB
+json-server --watch db.json
+json-server --watch db.json --port 3004

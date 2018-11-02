@@ -1,0 +1,78 @@
+@import '../../skins/index.scss';
+
+.login {
+  @include flex(column);
+  justify-content: center;
+  width: 90%;
+  margin: 20px;
+
+  @include element('card') {
+    background-color: setColor('burgundy');
+    margin-top: 50%;
+    width: 80%;
+    padding: 20px;
+  }
+
+  @include element('card-header') {
+    @include flex(row);
+    align-items: flex-end;
+    justify-content: space-between;
+
+    img {
+      width: 24px;
+      height: 24px;
+    }
+
+    @include modifier('title') {
+      font-size: 1.8em;
+      font-weight: 500;
+    }
+  }
+
+  @include element('card-content') {
+    padding: 20px 0px;
+
+    label {
+      color: setColor('white');
+    }
+    input {
+      border-bottom: 1px solid setColor('white');
+
+      &:hover {
+        border-bottom: 1px solid setColor('white');
+      }
+    }
+
+    .form-icon {
+      width: 18px;
+      height: 18px;
+    }
+  }
+  @include element('card-footer') {
+    // p {
+    //   font-size: 1.2em;
+    //   padding: 10px 0px;
+    // }
+    button {
+      width: 140px;
+      background: setColor('white');
+      color: setColor('burgundy');
+      font-weight: 700;
+      border-radius: 0;
+
+      &:hover {
+        background-color: setColor('porcelain');
+      }
+    }
+  }
+
+  @include element('facebook') {
+    @include flex(row);
+    justify-content: center;
+    padding: 20px 0px;
+  }
+}
+
+.kep-login-facebook {
+  padding: 0;
+}
